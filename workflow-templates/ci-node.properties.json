@@ -1,0 +1,7 @@
+{
+  "name": "PayPilotLabs Node CI",
+  "description": "Install, lint and test a Node project on pull requests and pushes to main.",
+  "iconName": "octicon mark-github",
+  "categories": ["JavaScript", "TypeScript", "Node"],
+  "filePatterns": ["package.json$"]
+}

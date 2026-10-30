@@ -1,0 +1,6 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    # shortcut: one org-wide link can't name each repo, so it points to the policy; a repo can override with its own /security/advisories/new link
+    url: https://github.com/paypilotlabs/.github/blob/main/SECURITY.md
+    about: Report privately through the affected repo's Security tab > Report a vulnerability. Do not open a public issue.
