@@ -45,10 +45,50 @@ Great technology should be:
 
 ## Projects
 
+### Business suite
+
+Open-source apps for running a business on your own server. Each app runs on its own or alongside the others.
+
 | Project | What it is |
 | --- | --- |
-| **[Onscreenly](https://github.com/paypilotlabs/onscreenly)** | An open-source desktop AI meeting assistant. |
-| **[BookYourSlot](https://github.com/paypilotlabs/bookyourslot)** | Open-source appointment booking. |
+| **[PayPilotLabs CRM](https://github.com/paypilotlabs/paypilotlabs-crm)** | A sales CRM for small teams. Leads, deals, contacts and companies on a pipeline board, with emails, calls, tasks and notes on every record. |
+| **[PayPilotLabs ERP](https://github.com/paypilotlabs/paypilotlabs-erp)** | One system for the money, stock and work of a business: accounting, invoicing, buying and selling, inventory, manufacturing, projects and assets. Multi-company and multi-currency. |
+| **[PayPilotLabs HRMS](https://github.com/paypilotlabs/paypilotlabs-hrms)** | HR and payroll: employee records, leave, attendance, shifts, payroll, expenses, hiring and appraisals, with a mobile app for staff. |
+| **[PayPilotLabs Helpdesk](https://github.com/paypilotlabs/paypilotlabs-helpdesk)** | Customer support: every email or portal request becomes a ticket, with response targets, team assignment, saved replies and a knowledge base. |
+| **[PayPilotLabs Insights](https://github.com/paypilotlabs/paypilotlabs-insights)** | Reports and dashboards: connect your databases, build queries without code or in SQL, and share charts with your team. |
+
+The building blocks underneath:
+
+| Project | What it is |
+| --- | --- |
+| **[Framework](https://github.com/paypilotlabs/paypilotlabs-framework)** | The base every suite app runs on: data, logins and permissions, admin screens, email, background jobs and a REST API. |
+| **[Payments](https://github.com/paypilotlabs/paypilotlabs-payments)** | Online payments for suite apps through Stripe, PayPal, Razorpay, GoCardless and more. |
+| **[Telephony](https://github.com/paypilotlabs/paypilotlabs-telephony)** | Click-to-call, call logs, text messages and one-time login codes through Twilio or Exotel. |
+| **[Docker](https://github.com/paypilotlabs/paypilotlabs-docker)** | One build recipe that turns the framework and an app into a Docker image, the same way every time. |
+
+Built on open-source work by others. Each repository credits the original projects in its `NOTICE.md`.
+
+### Agency OS
+
+The dashboard we run PayPilotLabs on, built for service businesses. Inquiries, leads and a pipeline board; clients and onboarding; projects and tasks; proposals, contracts, invoices, payments and billing plans; and reports on sales, finance and delivery. It works on desktop and phone.
+
+Agency OS is private. To see it working, ask for a demo through our [free roadmap](https://paypilotlabs.com/roadmap/).
+
+### Products
+
+| Product | What it is |
+| --- | --- |
+| **[Receivly](https://www.getreceivly.com)** | Payment reminders that help service businesses collect what they are owed, without the awkward calls. |
+| **[Swamp](https://www.swampy.app)** | Turns a CSV, Excel or JSON spreadsheet into a shared team database with grid, board, gallery, calendar and form views. |
+
+We also build custom [CRM](https://paypilotlabs.com/products/crm-platform/) and [HR](https://paypilotlabs.com/products/hr-platform/) platforms shaped to how a team works.
+
+### Free open-source apps
+
+| Project | What it is |
+| --- | --- |
+| **[Onscreenly](https://github.com/paypilotlabs/onscreenly)** | A desktop AI assistant. It sees your screen, transcribes your meeting and answers in a floating panel. Bring your own AI or run transcription locally. |
+| **[BookYourSlot](https://github.com/paypilotlabs/bookyourslot)** | Appointment booking for salons, clinics and consultants. Customers pick a time and it lands in your calendar. |
 
 ## Contribute
 
